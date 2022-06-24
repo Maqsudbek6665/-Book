@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.first_page, .second_page, .third_page, .fourth_page, .fifth_page, .six_page, .seven_page, .eight_page, .nine_page, .ten_page{
+    width: 100%;
+    height: 100vh;
+}
+
+.first_page>p{
+    color: dodgerblue;
+}
+
+.second_page>p{
+    color: rgb(176, 23, 23);
+}
+
+.third_page>p{
+    color: #9500ff;
+}
+
+.fourth_page>p{
+    color: rgba(105, 15, 15, 0.441);
+}
+
+.fifth_page>p{
+    color: rgb(0, 255, 51);
+}
+
+.six_page>p{
+    color: #687b1e74;
+}
+
+.seven_page>p{
+    color: rgb(157, 0, 255);
+}
+
+.eight_page>p{
+    color: rgb(176, 23, 23);
+}
+
+.nine_page>p{
+    color: #fffb00;
+}
+
+.ten_page>p{
+    color: lightpink;
+}
+
+.alert{
+    width: 200px;
+    height: 30px;
+    background-color: #9500ff;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: translateX(-200px);
+    transition: 1s;
+    color: #fff;
+}
+
+.first1_page{
+    width: 100%;
+    height: 30vh;
+}
